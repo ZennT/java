@@ -28,10 +28,16 @@ public class ifStatement_4 {
 //            System.out.println("tne number is not equal to 7");
 //        }
 
-        int number = 7;
-        if(number != 3){
-            System.out.println("The number is not equal to 7");
+//
+
+        int i = 2;
+        if (i < 3)
+        {
+            i /= 1;
+//          i++  -->  i = i + 1  -->  i += 1   //ucu de i sayisina 1 ekle demek
+
         }
+        System.out.println(i);
 
     }
 

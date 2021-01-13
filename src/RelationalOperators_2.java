@@ -10,11 +10,11 @@ public class RelationalOperators_2 {
     // == checks equality, = assignes something
     //System.out.println(result);
 
-        int number1 = 3;
-        int number2 = 3;
-        boolean result = number1 != number2;
+//        int number1 = 3;
+//        int number2 = 3;
+//        boolean result = number1 != number2;
 //         !=checks inequality
-        System.out.println(result);
+        //System.out.println(result);
 
         //int number1 = 3;
         //int number2 = 3;
@@ -119,7 +119,6 @@ public class RelationalOperators_2 {
         System.out.println("How old are you?");
         int age = scanner.nextInt();
         System.out.println("You are " + age + " years old");
-
 
 
 

@@ -39,7 +39,7 @@ public class Calculator_9 {
             default:
                 System.out.println("Not a valid operator");
         }
-        System.out.println(number1 + "" +  operator + "" + number2 + "" + " is equal to 5" + "" + result  );
+        System.out.println(number1 + "" +  operator + "" + number2 + "" + " is equal to " + "" + result  );
 
     }
 }
