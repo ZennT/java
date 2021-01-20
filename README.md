@@ -1,4 +1,4 @@
 # java
 
-This repo includes my journey to learn java.
+This repo includes my journey in learning java.
 
