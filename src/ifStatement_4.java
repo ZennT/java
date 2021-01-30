@@ -7,7 +7,7 @@ public class ifStatement_4 {
 //                <= less than or equal
 //                == equal to   ** = is used to assign a value to the variables
 //                != not equal to
-//        if(true){ //needs to be true to run
+//        if(true){      //needs to be true to run
 //            System.out.println("inside the curly brackets");
 //
 //    }
