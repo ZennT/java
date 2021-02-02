@@ -80,17 +80,36 @@ public class BasicArray_While_11 {
 
  //       -----------------------------------------------------
 
+//        int[] nums = new int[10];
+//        int num = 0;
+//        while(num < 20) {
+//            System.out.println(num);
+//            nums[num] = num * 10;
+//            num++;
+//        }
+         /*
+         Burasi "out of bounds" hatasi verir. cunku olusturdugumu array 10 elemanli ve
+         num<20 sartini saglamasi icin daha fazla eleman olmali.
+         num<20 sartini num<nums.length sekklinde degistirirsek problem duzelir
+
+          */
+
+//        int[] nums = new int[10];
+//        int num = 0;
+//        while(num < nums.length) {
+//            nums[num] = num * 10;
+//            System.out.println(num);
+//            num++;
+//        }
+
         int[] nums = new int[10];
         int num = 0;
-        while(num < 20) {
-            System.out.println(num);
+        while (num < nums.length)
+        {
             nums[num] = num * 10;
+            System.out.println(nums[num]);  // *10 halini yazdirir
             num++;
         }
-        // Burasi "out of bounds" hatasi verir. cunku olusturdugumu array 10 elemanli ve
-        // num<20 sartini saglamasi icin daha fazla eleman olmali.
-        // num<20 sartini num<nums.length sekklinde degistirirsek problem duzelir
-
     }
 
 }
