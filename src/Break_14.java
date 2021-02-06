@@ -4,6 +4,7 @@ public class Break_14 {
         BREAK
         exit the switch statement, while, do-while and for loop
         the rest of the program continues to run
+        if the condition is always true it is good to use break
          */
 
 //        int num = 0;
@@ -14,7 +15,7 @@ public class Break_14 {
 //            }
 //            System.out.println(num);
 //        }
-
+//         --------------------------------
 //        int num = 0;
 //        while (num <= 10){
 //            num++;
@@ -23,18 +24,31 @@ public class Break_14 {
 //            }
 //            System.out.println(num);
 //        }
+//      ----------------------------------------
+
+//        int num = 1;
+//        while(true) {
+//            if(num > 10) {
+//                break; // eger break olmazsa condition true oldugu icin hep calisir
+//            }
+//            System.out.println(num);
+//            num++;
+//    }
+
+//      ------------------------------------------
+
+            int num = 10;
+            do {
+                System.out.println(num);
+                num++;
+                if(num == 20){
+                    break;
+                }
+            }while(num ==10);   //sadece 10 yazdiriyor
+             //while(num!=10);  // 10-19 arasini yazdiriyor
 
 
-        int num = 1;
-        while(true) {
-            if(num > 10) {
-                break;
-            }
-            System.out.println(num);
-            num++;
 
 
-
-        }
     }
 }
