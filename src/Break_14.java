@@ -33,6 +33,8 @@ public class Break_14 {
             System.out.println(num);
             num++;
 
+
+
         }
     }
 }
