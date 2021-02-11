@@ -91,6 +91,7 @@ public class Break_Continue_14 {
             }
             System.out.println(num);
         }while (num <= 20);
+        // 7 yi yazdirmaz cunku continue dan dolayi num == 7 oldugunda alttaki system.out satirini atlar
         // 21 de yazdirir cunku while daki condition i num i yazdirdiktan sonra kontrol ediyor
 
     }
