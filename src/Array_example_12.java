@@ -10,6 +10,12 @@ public class Array_example_12 {
 
          */
 
+//        int[] my_array = new int[]{1,2,3,4};  // array tanimladim, size belirtseydim koseli parantez icine yazardim.
+//        System.out.println(my_array[0]);      // array imin 0. elemanini yazdirdim
+
+        int[] my_array = new int[4];            //array in sadece size ini belirttim//
+        System.out.println(my_array[3]);
+
 //        double[] doubleValues = new double[10];  // define an array
 //        int i = 0;
 //        double sum = 0;
@@ -26,22 +32,24 @@ public class Array_example_12 {
 
         //----------------------------------------
 
-        Scanner scanner = new Scanner(System.in);
-        double[] array = new double[10];
-        for(int n = 0; n < array.length; n++)
-        {
-            System.out.println("Enter #" + (n + 1));
-            double num = scanner.nextDouble();
-            array[n] = num;
-        }
-        double sum = 0;
-        for(int x = 0; x < array.length; x++)
-        {
-            sum += array[x];
-        }
-        double avg;
-        avg = sum / array.length;
-        System.out.println(avg);
+//        Scanner scanner = new Scanner(System.in);
+//        double[] array = new double[10];
+//        for(int n = 0; n < array.length; n++)
+//        {
+//            System.out.println("Enter #" + (n + 1));
+//            double num = scanner.nextDouble();
+//            array[n] = num;
+//        }
+//        double sum = 0;
+//        for(int x = 0; x < array.length; x++)
+//        {
+//            sum += array[x];
+//        }
+//        double avg;
+//        avg = sum / array.length;
+//        System.out.println(avg);
+
+
 
     }
 }
