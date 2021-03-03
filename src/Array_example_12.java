@@ -10,11 +10,11 @@ public class Array_example_12 {
 
          */
 
-//        int[] my_array = new int[]{1,2,3,4};  // array tanimladim, size belirtseydim koseli parantez icine yazardim.
+//        int[] my_array = new int[]{1,2,3,4};  // array tanimladim, size(buyukluk) belirtseydim koseli parantez icine yazardim.
 //        System.out.println(my_array[0]);      // array imin 0. elemanini yazdirdim
 
-        int[] my_array = new int[4];            //array in sadece size ini belirttim//
-        System.out.println(my_array[3]);
+//        int[] my_array = new int[4];            //array in sadece size ini belirttim//
+//        System.out.println(my_array[3]);
 
 //        double[] doubleValues = new double[10];  // define an array
 //        int i = 0;
@@ -48,6 +48,19 @@ public class Array_example_12 {
 //        double avg;
 //        avg = sum / array.length;
 //        System.out.println(avg);
+
+
+//        String[] my_array = new String[]{"hello","world","!"};
+//        for (int i = 0; i<my_array.length; i++){
+//            System.out.println(my_array[i]);
+//        }
+
+        int[] my_array = new int[]{1,5,8};
+        for(int i = 0; i<my_array.length; i++){
+            //0, 1, 2 --> eleman siralamasi
+            System.out.println(my_array[i]);
+        }
+
 
 
 
