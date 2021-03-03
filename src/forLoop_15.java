@@ -22,7 +22,7 @@ public class forLoop_15 {
     // i = i + 1 -> i++
 
 //        for(int i = 0; i < 5; i++ ){
-//            StringSystem.out.println("Hello");
+//            System.out.println("Hello");
 //        }
 
 
@@ -47,9 +47,13 @@ public class forLoop_15 {
 //            System.out.println("Hello");  // condition her zaman true ise infinite loop a girer
 
 
-        for(;;){                    //infinite loop
-        System.out.println("***");
-        }
+//        for(;;){                    //infinite loop cunku nerede baslayip nerede bitecegini bilmiyor
+//        System.out.println("***");
+//        }
+
+
+
+
 
 
 
