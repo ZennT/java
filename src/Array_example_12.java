@@ -7,7 +7,7 @@ public class Array_example_12 {
         use the scanner class to ask user to enter 10 numbers in a while loop
         store those values in the array
         find the average of the array
-
+        if you don't define the members of the array, java assumes that it is empty
          */
 
 //        int[] my_array = new int[]{1,2,3,4};  // array tanimladim, size(buyukluk) belirtseydim koseli parantez icine yazardim.
