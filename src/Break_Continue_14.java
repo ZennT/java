@@ -5,11 +5,8 @@ public class Break_Continue_14 {
         exit the switch statement, while, do-while and for loop
         the rest of the program continues to run
         if the condition is always true it is good to use break
-         */
 
-        /*
         CONTINUE
-
         if you want to skip certain things you can use continue
         Skip all the code that should be executed after using "continue"
         until the end ("}") of the while, do while and for loop. Then,
