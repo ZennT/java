@@ -57,6 +57,58 @@ public class Examples_16 {
         //Print them
         //example int[] intArray = new int[]{1,2,3,4,5};
 
+        // while
+        int[] whileArray = new int[]{5,6,7,9,3}; // [9] ifadesi icinde 9 tane 0 var farzeder
+        int evenCount = 0;
+        int oddCount = 0;
+        int i = 0;
+
+        while (i < whileArray.length){
+            if(whileArray[i] % 2 == 0){
+                evenCount++;
+            }else {
+                oddCount++;
+            }
+            i++;
+        }
+
+        System.out.println("There are " + evenCount + " even numbers");
+        System.out.println("There are " + oddCount + " odd numbers");
+
+          // first for try
+//        int[] newArray = new int[]{3,5,7,9};
+//        int oddCount = 0;
+//        int evenCount = 0;
+//
+//        for(int i = 0; i < newArray.length; i++){
+//            if(newArray[i] % 2 == 0){
+//                evenCount++;
+//            }else{
+//                oddCount++;
+//            }
+//
+//        }
+//        System.out.println("There are " + evenCount + " even numbers");
+//        System.out.println("There are " + oddCount + " odd numbers");
+//
+//        ----------------------
+          // second for try
+//        int[] myArray = new int[]{1,2,3,4,5};
+//        int oddCount = 0;
+//        int evenCount = 0;
+//        for(int i = 0; i < myArray.length; i++)
+//        {
+//            if(myArray[i] % 2 == 0)
+//            {
+//                evenCount++;
+//            }
+//            else {
+//                oddCount++;
+//            }
+//
+//        }
+//        System.out.println("There are " + evenCount + " even numbers");
+//        System.out.println("There are " + oddCount + " odd numbers");
 
     }
 }
