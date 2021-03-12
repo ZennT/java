@@ -58,8 +58,10 @@ public class Array_example_12 {
         int[] my_array = new int[]{1,5,8};
         for(int i = 0; i<my_array.length; i++){
             //0, 1, 2 --> eleman siralamasi
-            System.out.println(my_array[i]);
+           System.out.println(my_array[i]);
+           // bu ornekte println for loop disina yazamiyoruz
         }
+
 
 
 
