@@ -95,9 +95,9 @@ public class RelationalOperators_2 {
 //        int result = aNumber1 >> 1;
 //        System.out.println(result);
 
-//        int aNumber1 = 256;
-//        int result = aNumber1 >> 3;
-//        System.out.println(result);
+        int aNumber1 = 256;
+        int result = aNumber1 >> 3;
+        System.out.println(result);
 
 //        int aNumber1 = 256;
 //        int result = aNumber1 << 1;
@@ -115,10 +115,10 @@ public class RelationalOperators_2 {
         // birkac kelime beraber yazdirmak istiyorsan nextLine() kullanmalisin
         //System.out.println("Your name is " + myName);
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("How old are you?");
-        int age = scanner.nextInt();
-        System.out.println("You are " + age + " years old");
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("How old are you?");
+//        int age = scanner.nextInt();
+//        System.out.println("You are " + age + " years old");
 
 
 

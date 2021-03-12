@@ -29,8 +29,8 @@ public class AdvancedArrays_17 {
 //            System.out.println(Arrays.toString(myIntArray)); // toString --> array in elemanlarini
 //                                                             // yazdirmak icin kullandik
             // INITIALIZING - 3 (Initializing one element at a time)
-            // int[] myArray = new int[4];
-            // myArray[0] = 5;
+            // int[] myArray = new int[4];  // creating space for each element
+            // myArray[0] = 5;              // initializing each element seperately
             // myArray[1] = 3;
             // myArray[2] = 6;
             // myArray[3] = 10;
@@ -38,9 +38,19 @@ public class AdvancedArrays_17 {
             // INITIALIZING - 4 (Initializing using a loop)
              int[] myArray = new int[8];
              for(int i = 0; i < myArray.length; i++){
-                myArray[i] = i * i;
+                myArray[i] = i * i;   //array in elemanini bu kurala gore degistiriyorum, en basta 0 idi
+                 //System.out.println(Arrays.toString(myArray));
+                // loop icinde yazildigi icin her dongude print yapar
                 }
              System.out.println(Arrays.toString(myArray));
+
+//        int[] myArray = new int[5];
+//        for(int i = 0; i < myArray.length; i++){
+//            myArray[i] = i + i;
+//        }
+//        System.out.println(Arrays.toString(myArray));
+
+
 
 
 
