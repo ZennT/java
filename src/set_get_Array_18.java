@@ -1,7 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class setArray_18 {
+public class set_get_Array_18 {
 
     public static void main(String[] args) {
 
@@ -27,6 +27,20 @@ public class setArray_18 {
 //        Array.set(myStringArray,5,"?");
 //
 //        System.out.println(Arrays.toString(myStringArray));
+
+
+        int[] myArray = new int[5];
+
+        Array.set(myArray,0,100);  // another way --> myArray[0] = 100;
+        Array.set(myArray,1,81);
+        Array.set(myArray,2,64);
+        Array.set(myArray,3,49);
+        Array.set(myArray,4, 36);
+
+        System.out.println(Arrays.toString(myArray));
+
+
+
 
 
 

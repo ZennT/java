@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+
 import java.util.Arrays;
 
 public class AdvancedArrays_initializing_17 {
@@ -44,11 +44,19 @@ public class AdvancedArrays_initializing_17 {
 //                }
 //             System.out.println(Arrays.toString(myArray));
 
-        int[] myArray = new int[5];
+//        int[] myArray = new int[5];
+//        for(int i = 0; i < myArray.length; i++){
+//            myArray[i] = i + i;
+//        }
+//          System.out.println(Arrays.toString(myArray));
+//
+
+        int[] myArray = new int[10];
         for(int i = 0; i < myArray.length; i++){
-            myArray[i] = i + i;
+            myArray[i] = (i + 1) * (i +1);
         }
-          System.out.println(Arrays.toString(myArray));
+        System.out.println(Arrays.toString(myArray));
+
 
 
 
