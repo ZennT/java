@@ -1,7 +1,7 @@
 import java.sql.SQLOutput;
 import java.util.Arrays;
 
-public class AdvancedArrays_17 {
+public class AdvancedArrays_initializing_17 {
     public static void main(String[] args) {
 
             // Arrays are zero indexed
@@ -36,19 +36,22 @@ public class AdvancedArrays_17 {
             // myArray[3] = 10;
 
             // INITIALIZING - 4 (Initializing using a loop)
-             int[] myArray = new int[8];
-             for(int i = 0; i < myArray.length; i++){
-                myArray[i] = i * i;   //array in elemanini bu kurala gore degistiriyorum, en basta 0 idi
-                 //System.out.println(Arrays.toString(myArray));
-                // loop icinde yazildigi icin her dongude print yapar
-                }
-             System.out.println(Arrays.toString(myArray));
+//             int[] myArray = new int[8];
+//             for(int i = 0; i < myArray.length; i++){
+//                myArray[i] = i * i;   //array in elemanini bu kurala gore degistiriyorum, en basta 0 idi
+//                 //System.out.println(Arrays.toString(myArray));
+//                // loop icinde yazildigi icin her dongude print yapar
+//                }
+//             System.out.println(Arrays.toString(myArray));
 
-//        int[] myArray = new int[5];
-//        for(int i = 0; i < myArray.length; i++){
-//            myArray[i] = i + i;
-//        }
-//        System.out.println(Arrays.toString(myArray));
+        int[] myArray = new int[5];
+        for(int i = 0; i < myArray.length; i++){
+            myArray[i] = i + i;
+        }
+          System.out.println(Arrays.toString(myArray));
+
+
+
 
 
 
