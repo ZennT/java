@@ -1,2 +1,42 @@
 public class ForEachLoop_22 {
+    /**
+     * for each loop
+     * similar to for loop but an enhanced way of it
+     * allows you to traverse(travel) each element in an array
+     *    or collection, and to use them as you want (loops btw each elements)
+     * for each is used only for arrays and collections
+     * Instead of declaring and initializing the variable for iterations as in a loop,
+     *   we declare a variable of the same type as the base of the array
+     *   syntax --> for(data_type item : collection){
+     *                      Statements using item
+     *                      }
+     * for loop once index e gider, for each dogrudan elemana gider
+     */
+
+    public static void main(String[] args) {
+//        int[] myInt = {1,3,5,7};
+//        //for loop
+//        for(int i = 0; i < myInt.length; i++){
+//            System.out.println(myInt[i]);
+//        }
+//
+//        //for each loop
+//        for(int element_in_myInt : myInt){       // element_in_myInt -->simdi tanimladim
+//            System.out.println(element_in_myInt);
+//        }
+
+
+        //Print every element of am array using a for loop
+        int[] myArray = new int[]{5,7,9};
+        for(int i = 0; i < myArray.length; i++){ // i ->0, 1, 2 -> index numaralari
+            System.out.println(myArray[i]);      // myArray[i] ->5, 7, 9
+        }
+        for(int myElement : myArray){     // element -> 5, 7, 9
+            System.out.println(myElement);
+        }
+
+
+
+    }
 }
+
