@@ -43,6 +43,20 @@ public class ForEachLoop_22 {
 //            System.out.println(myElement + " and " + myElement2);
 //        }
 
+//        int[] myArray = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+//        int sum =0;
+//        for(int i : myArray){
+//            sum += i;
+//        }
+//        System.out.println("The sum is : " + sum);
+
+        int[]myArray = new int[] {5, 7, 9};
+        int sum =0;
+        for(int i : myArray){
+            sum +=i;   // sum = sum + i;
+        }
+        System.out.println(sum);
+
 
 
     }
