@@ -27,13 +27,21 @@ public class ForEachLoop_22 {
 
 
         //Print every element of am array using a for loop
-        int[] myArray = new int[]{5,7,9};
-        for(int i = 0; i < myArray.length; i++){ // i ->0, 1, 2 -> index numaralari
-            System.out.println(myArray[i]);      // myArray[i] ->5, 7, 9
-        }
-        for(int myElement : myArray){     // element -> 5, 7, 9
-            System.out.println(myElement);
-        }
+//        int[] myArray = new int[]{5,7,9};
+//        for(int i = 0; i < myArray.length; i++){ // i ->0, 1, 2 -> index numaralari
+//            System.out.println(myArray[i]);      // myArray[i] ->5, 7, 9
+//        }
+//        for(int myElement : myArray){     // element -> 5, 7, 9
+//            System.out.println(myElement);
+//        }
+
+        //NESTED for each loop
+//        int[] myArray = new int[]{5,7,9};
+//        int[] myArray2 = new int[]{60, 80};
+//        for(int myElement : myArray){
+//            for(int myElement2 : myArray2)
+//            System.out.println(myElement + " and " + myElement2);
+//        }
 
 
 
