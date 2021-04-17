@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Methods_23 {
+public class Methods_24 {
     /**
      * if the whole program is inside main method it causes a long code
      * which is hard to read and understand
@@ -76,17 +76,32 @@ public class Methods_23 {
 //    }
 
 
-        public static void main(String[] args) {
-            Scanner scan = new Scanner(System.in);
-            System.out.println("Enter City");
-            String city = scan.next();
-            System.out.println("Enter Name");
-            String name = scan.next();
-            greeting(name, city);
-        }
-        public static void greeting(String n, String c){
-            System.out.println("Hello " + n + " from " + c);
-        }
+//        public static void main(String[] args) {
+//            Scanner scan = new Scanner(System.in);
+//            System.out.println("Enter City");
+//            String city = scan.next();
+//            System.out.println("Enter Name");
+//            String name = scan.next();
+//            greeting(name, city);
+//        }
+//        public static void greeting(String n, String c){
+//            System.out.println("Hello " + n + " from " + c);
+//        }
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter City");
+        String city = scan.next();
+        System.out.println("Enter Name");
+        String name = scan.next();
+        System.out.println(greeting(name, city));
+    }
+    public static String greeting(String n, String c){
+        String str = "Hello " + n + " from " + c;
+        return str;
+    }
+
+
 
 
 }

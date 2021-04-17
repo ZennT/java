@@ -1,4 +1,4 @@
-public class DescendingOrderProblem_24 {
+public class DescendingOrderProblem_25 {
     /**
      * Ask from the user, how many numbers they want to sort
      * (That should be the size of your array)
